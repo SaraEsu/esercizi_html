@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+</head>
+
+<body>
+    <main>
+        <form action="">
+            <label for="email">Email</label><br>
+            <input type="email" placeholder="mariorossi@gmail.com" id="email" required> <br>
+            <label for="password">Password</label><br>
+            <input type="password" placeholder="********" id="password" required><br>
+            <label for="nome">Nome e cognome</label><br>
+            <input type="text" placeholder="Mario Rossi" required id="nome"><br>
+            <label type="telefono" for="telefono">Numero di telefono</label><br>
+            <input placeholder="333 22 11 000" required id="telefono"><br>
+            <label for="piano">Piano di abbonamento</label><br>
+            <select name="piano" id="piano" required>
+                <option value="Un piano free">
+                    Un piano free</option>
+                <optgroup label="Mensili">
+                    <option value="199">1.99€/mese</option>
+                    <option value="399">3.99€/mese</option>
+                    <option value="999">9.99€/mese</option>
+                </optgroup>
+            </select> <br>
+            <label for="pro">Vuoi aggiungere i vantaggi pro?</label>
+            <input type="checkbox" name="vantaggi pro" id="pro">
+        </form>
+
+        <form action="">
+            <label for="carta">Numero carta</label> <br>
+            <input id="carta" required> <br>
+            <label type="text" for="cvc">CVC</label> <br>
+            <input id="cvc" required> <br>
+            <label type="text" for="scadenza">Data di scadenza</label> <br>
+            <input type="month" id="scadenza" required> <br>
+            Indirizzo di fatturazione <br>
+            <input type="address" required> <br>
+        </form>
+    </main>
+
+</body>
+
+</html>
